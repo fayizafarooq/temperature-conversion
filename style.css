@@ -1,6 +1,6 @@
 body{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: rgba(2, 67, 69, 0.32);
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f8ff;
 }
 h1{
   color:rgba(2, 67, 69, 0.962);
@@ -39,18 +39,12 @@ button{
   border-radius: 5px;
   cursor: pointer;
   width: 100px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
 }
-#button{
-  background-color: hsla(0, 96%, 20%);
-}
-#button:hover{
-  background-color: hsla(0, 96%, 25%);;
-}
-#reset{
-  background-color: hsl(142, 96%, 20%);
-}
-#reset:hover{
-  background-color: hsl(147, 95%, 25%);;
+button:hover{
+  background-color: hsl(122, 39%, 39%);
 }
 #result{
   font-size: 2rem;
