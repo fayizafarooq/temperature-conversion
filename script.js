@@ -20,6 +20,9 @@ function convert(){
     result.textContent=temperature.toFixed(1) +"°F"
 
   }
+  else if (textbox.value=== "" || isNaN(textbox.value)) {
+    result.textContent="Please select a unit to convert"
+  }
   else{
     result.textContent="Please select a unit to convert"
   }
