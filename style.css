@@ -2,7 +2,6 @@ body{
   margin-top:30px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   font-family: 'Segoe UI', sans-serif;
   background-color: #f0f8ff;
